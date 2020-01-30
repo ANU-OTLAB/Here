@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "39322383074",
+    "firebase_url": "https://here-75281.firebaseio.com",
+    "project_id": "here-75281",
+    "storage_bucket": "here-75281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39322383074:android:366d54cd4b7fd7054f64bb",
+        "android_client_info": {
+          "package_name": "com.otlab.here"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39322383074-6fc7fs0681oj38ojlas9t0rv6fjm6a4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDod-GTxEVLTHDSsJA0JzZXk2-0huK0sX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39322383074-6fc7fs0681oj38ojlas9t0rv6fjm6a4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

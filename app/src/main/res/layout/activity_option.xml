@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 전체적으로 세로 정렬 사용 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E8E8E8"
+    android:orientation="vertical"
+    tools:context=".option.OptionActivity">
+
+    <LinearLayout
+        android:id="@+id/whoami_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/option_whoami_round_edge"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/whoami_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/title_border"
+            android:fontFamily="@font/my_font_family"
+            android:padding="20dp"
+            android:text="MY"
+            android:textColor="#000000"
+            android:textSize="20pt" />
+
+        <TextView
+            android:id="@+id/whoami_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_round_edge"
+            android:fontFamily="@font/my_font_family"
+            android:gravity="center|start"
+            android:paddingLeft="30dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/whoami_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_round_edge"
+            android:fontFamily="@font/my_font_family"
+            android:gravity="center|start"
+            android:paddingLeft="30dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/whoami_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_round_edge"
+            android:text="닫 기"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Option_Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/option_border"
+        android:fontFamily="@font/my_font_family"
+        android:padding="20dp"
+        android:text="OPTION"
+        android:textColor="#000000"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+    <!-- 옵션 제목 -->
+
+    <!-- 사용자 정보와 로그아웃 버튼은 가로 정렬 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!-- 사용자 정보:whoami -->
+
+        <Button
+            android:id="@+id/whoami"
+            android:layout_width="255dp"
+            android:layout_height="75dp"
+            android:background="@drawable/option_button_left_round_edge"
+            android:drawableLeft="@drawable/whoami"
+            android:duplicateParentState="false"
+            android:editable="false"
+            android:fontFamily="@font/my_font_family"
+            android:gravity="center"
+            android:paddingLeft="80dp"
+            android:paddingRight="70dp"
+            android:text="whoami"
+            android:textSize="14sp" />
+
+        <!-- 로그 아웃 : logout -->
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/option_button_right_round_edge"
+            android:drawableLeft="@drawable/logout"
+            android:fontFamily="@font/my_font_family"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="logout"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 기본적으로 설정되는 km를 결정하는 버튼 -->
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/option_button_round_edge"
+        android:drawableLeft="@drawable/membership_setting"
+        android:fontFamily="@font/my_font_family"
+        android:paddingLeft="150dp"
+        android:paddingRight="130dp"
+        android:text="setting"
+        android:textSize="14sp" />
+
+    <!--개발자 소개 + popup창으로 뜨게 해보려고 함 or Textview -->
+    <Button
+        android:id="@+id/friend"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/option_button_round_edge"
+        android:drawableLeft="@drawable/friend"
+        android:fontFamily="@font/my_font_family"
+        android:paddingLeft="150dp"
+        android:paddingRight="130dp"
+        android:text="Friend"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/option_button_round_edge"
+        android:drawableLeft="@drawable/allow_wait_list"
+        android:fontFamily="@font/my_font_family"
+        android:paddingLeft="150dp"
+        android:paddingRight="120dp"
+        android:text="ACCEPT"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/developer"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/option_button_round_edge"
+        android:drawableLeft="@drawable/developer_intro"
+        android:fontFamily="@font/my_font_family"
+        android:gravity="center"
+        android:paddingLeft="150dp"
+        android:paddingRight="120dp"
+        android:text="DEVELOPER"
+        android:textSize="14sp" />
+
+</LinearLayout>

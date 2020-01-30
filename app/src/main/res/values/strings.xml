@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Here</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <!-- SharedPreference -->
+    <string name="appData">appData</string>
+    <string name="autoLogin">autoLogin</string>
+
+    <string name="userId">id</string>
+    <string name="userName">name</string>
+    <string name="userAlarmPath">alarmPath</string>
+    <string name="listSize">listSize</string>
+
+    <!-- intent -->
+    <string name="alarmName">alarmName</string>
+    <string name="alarmPath">alarmPath</string>
+    <string name="requestId">requestId</string>
+    <string name="validTime">validTime</string>
+
+    <string name="settingName">settingName</string>
+    <string name="distance">distance</string>
+    <string name="destination">destination</string>
+    <string name="destinationName">destinationName</string>
+    <string name="destinationType">destinationType</string>
+    <string name="validity">validity</string>
+    <string name="itemPosition">itemPosition</string>
+    <string name="service">service</string>
+    <string name="destinationList">destinationList</string>
+    <string name="name1">1</string>
+
+    <string name="myId">id</string>
+    <string name="friendId">friendId</string>
+    <string name="friendName">friendName</string>
+    <string name="friendValidity">friendValidity</string>
+    <string name="friendPosition">\position</string>
+
+
+    <!-- address -->
+    <string name="addressLogin">http://iclab.andong.ac.kr/here/login.jsp</string>
+    <string name="addressJoin">http://iclab.andong.ac.kr/here/join.jsp</string>
+    <string name="addressFriendList">http://iclab.andong.ac.kr/here/friendListOutput.jsp</string>
+    <string name="addressFriendAdd">http://iclab.andong.ac.kr/here/friendAdd.jsp</string>
+    <string name="addressFriendDelete">http://iclab.andong.ac.kr/here/friendDelete.jsp</string>
+    <string name="addressAuthority">http://iclab.andong.ac.kr/here/authorityOutput.jsp</string>
+    <string name="addressAuthoritySave">http://iclab.andong.ac.kr/here/authorityInformationSave.jsp</string>
+
+</resources>

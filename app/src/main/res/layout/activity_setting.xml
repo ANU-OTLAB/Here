@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/setting_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/list_border"
+        android:fontFamily="@font/my_font_family"
+        android:padding="20dp"
+        android:text="SETTING"
+        android:textColor="#000000"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/setList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/setting_name"
+        android:layout_alignParentBottom="true"
+        android:choiceMode="singleChoice"
+        android:divider="#E8E8E8"
+        android:dividerHeight="3dp">
+
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/createList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/setList"
+        android:layout_alignEnd="@id/setList"
+        android:layout_alignRight="@id/setList"
+        android:layout_alignBottom="@id/setList"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#B3E5FC"
+        app:elevation="6dp"
+        app:maxImageSize="32dp"
+        app:srcCompat="@drawable/list_btn"
+        app:useCompatPadding="true" />
+</RelativeLayout>
